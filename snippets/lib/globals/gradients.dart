@@ -3,7 +3,7 @@ import 'colors.dart';
 
 class GradientTheme {
 
-  static LinearGradient _getLinearGradient(Color soft, Color hard, Alignment begin, Alignment end) {
+  static LinearGradient getGradient(Color soft, Color hard, Alignment begin, Alignment end) {
 
     Alignment defaultStart = Alignment.topLeft;
     Alignment defaultEnd = Alignment.bottomRight;
@@ -19,23 +19,31 @@ class GradientTheme {
   }
 
   static LinearGradient purple() {
-    return _getLinearGradient(purpleSoft, purpleHard, null, null);
+    return getGradient(purpleSoft, purpleHard, null, null);
   }
 
   static LinearGradient pink() {
-    return _getLinearGradient(pinkSoft, pinkHard, null, null);
+    return getGradient(pinkSoft, pinkHard, null, null);
   }
 
   static LinearGradient violet() {
-    return _getLinearGradient(violetSoft, violetHard, null, null);
+    return getGradient(violetSoft, violetHard, null, null);
   }
 
   static LinearGradient yellow() {
-    return _getLinearGradient(yellowSoft, yellowHard, null, null);
+    return getGradient(yellowSoft, yellowHard, null, null);
   }
 
   static LinearGradient blue() {
-    return _getLinearGradient(blueSoft, blueHard, null, null);
+    return getGradient(blueSoft, blueHard, null, null);
+  }
+
+  static LinearGradient green() {
+    return getGradient(greenSoft, greenHard, null, null);
+  }
+
+  static LinearGradient peach() {
+    return getGradient(peachSoft, peachHard, null, null);
   }
 
 

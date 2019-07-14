@@ -27,12 +27,21 @@ const Color violetMedium = Color(0xffAE5DFE);
 const Color violetHard = Color(0xffA65CFC);
 
 //Yellow theme
-const Color yellowSoft = Color(0xffFEDC56);
+const Color yellowSoft = Color(0xffFBC969);
 const Color yellowMedium = Color(0xffFEC754);
-const Color yellowHard = Color(0xffFCAC50);
+const Color yellowHard = Color(0xffFBAF69);
 
 //Blue theme
 const Color blueSoft = Color(0xff2EC2FF);
 const Color blueMedium = Color(0xff269EFF);
 const Color blueHard = Color(0xff1C75FF);
 
+// Green theme
+const Color greenSoft = Color(0xff36CCA6);
+const Color greenMedium = Color(0xff60C3A2);
+const Color greenHard = Color(0xff289896);
+
+//Peach Theme
+const Color peachSoft = Color(0xffFDCAA4);
+const Color peachMedium = Color(0xffFEBCA2);
+const Color peachHard = Color(0xffFC9D9C);
