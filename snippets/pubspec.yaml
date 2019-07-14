@@ -23,17 +23,27 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  flutter_svg: ^0.13.1
+
+
+
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.7.2"
   flutter_test:
     sdk: flutter
 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon_app.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -44,6 +54,9 @@ flutter:
   # assets:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
+  assets:
+    - assets/snipzie_white.png
+    - assets/icon_app.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -67,6 +80,30 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: fonts/AvenirLTStd-Light.otf
+          weight: 100
+        - asset: fonts/AvenirLTStd-Book.otf
+          weight: 300
+        - asset: fonts/AvenirLTStd-Roman.otf
+        - asset: fonts/AvenirLTStd-Medium.otf
+          weight: 500
+        - asset: fonts/AvenirLTStd-Black.otf
+          weight: 700
+        - asset: fonts/AvenirLTStd-Heavy.otf
+          weight: 900
+
+    - family: Modulus
+      fonts:
+        - asset: fonts/Modulus.ttf
+        - asset: fonts/Modulus-Bold.otf
+          weight: 700
+        - asset: fonts/Modulus_Medium.ttf
+          weight: 500
+
+
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
