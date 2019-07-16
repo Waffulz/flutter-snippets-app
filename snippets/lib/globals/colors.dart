@@ -6,6 +6,7 @@ const Color bgColor = Color(0xffF8F8FF);
 const Color darkText = Color(0xff3A394A);
 const Color lightText = Color(0xff75748A);
 const Color shadow = Color(0xff4F4F4F);
+const Color disabled = Color(0xffC2B2B2);
 
 // Boolean colors
 const Color errorColor = Color(0xffFF3D5B);
@@ -24,6 +25,7 @@ const Color pinkHard = Color(0xffFB7080);
 //Violet theme
 const Color violetSoft = Color(0xffB95DFF);
 const Color violetMedium = Color(0xffAE5DFE);
+const Color violetShadow = Color(0x66AE5DFE);
 const Color violetHard = Color(0xffA65CFC);
 
 //Yellow theme

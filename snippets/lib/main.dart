@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:snippets/snippets/rerun%20logic/rerun_logic_snippet.dart';
 import 'globals/exports.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  // Prevent the device to swith to landscape orientation mode
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -13,10 +19,11 @@ class MyApp extends StatelessWidget {
         fontFamily: "Avenir"
       ),
       debugShowCheckedModeBanner: false,
-      home: Welcome(),
+      home: RerunLogicScreen(),
     );
   }
 }
+
 class Welcome extends StatefulWidget {
   @override
   _WelcomeState createState() => _WelcomeState();

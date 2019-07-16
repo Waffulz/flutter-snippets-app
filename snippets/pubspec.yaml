@@ -57,6 +57,8 @@ flutter:
   assets:
     - assets/snipzie_white.png
     - assets/icon_app.png
+    - assets/chillhop.jpg
+    - assets/chillhop2.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
