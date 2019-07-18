@@ -28,7 +28,7 @@ class _SnippetsScaffoldState extends State<SnippetsScaffold> {
       floatingActionButton: SnippetsFab((){print('FabClicked');}),
       body: Stack(
         children: <Widget>[
-          widget.body,
+          Center(child: widget.body),
           // Place the appbar always at the end of the stack to show it above
           // the widgets
           SnippetsAppbar(context)

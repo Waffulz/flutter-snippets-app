@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:snippets/snippets/SkeletonView/skeleton_view_snippet.dart';
 import 'package:snippets/snippets/rerun%20logic/rerun_logic_snippet.dart';
+import 'package:snippets/test.dart';
 import 'globals/exports.dart';
 
 void main() {
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Avenir"
       ),
       debugShowCheckedModeBanner: false,
-      home: RerunLogicScreen(),
+      home: SkeletonViewSnippet(),
     );
   }
 }

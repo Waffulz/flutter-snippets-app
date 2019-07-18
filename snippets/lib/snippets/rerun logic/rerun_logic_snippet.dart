@@ -109,21 +109,19 @@ class _RerunLogicScreenState extends State<RerunLogicScreen> {
 
 
 
-    return Center(
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: <Widget>[
-          vinyl,
-          songText,
-          SizedBox(height: 8,),
-          authorText,
-          SizedBox(height: 32,),
-          playButton,
-          SizedBox(height: 64,),
-          resetErrorText,
-          SizedBox(height: 32),
-        ],
-      )
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: <Widget>[
+        vinyl,
+        songText,
+        SizedBox(height: 8,),
+        authorText,
+        SizedBox(height: 32,),
+        playButton,
+        SizedBox(height: 64,),
+        resetErrorText,
+        SizedBox(height: 32),
+      ],
     );
   }
 
