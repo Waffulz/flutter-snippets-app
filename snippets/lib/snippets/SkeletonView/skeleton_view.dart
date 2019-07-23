@@ -8,7 +8,7 @@ class SkeletonView extends StatelessWidget {
     return Shimmer.fromColors(
       baseColor: Color(0xffDEE3F0),
       highlightColor: bgColor,
-      child: SkeletonUI(context)
+      child: skeletonUI(context)
     );
   }
 
@@ -83,7 +83,7 @@ class SkeletonView extends StatelessWidget {
     ),
   );
 
- Widget SkeletonUI(BuildContext context) {
+ Widget skeletonUI(BuildContext context) {
    return Container(
      padding: EdgeInsets.only(left: 32, right: 32),
      child: Column(

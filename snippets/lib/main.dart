@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:snippets/snippets/SkeletonView/skeleton_view_snippet.dart';
 import 'package:snippets/snippets/SpinKit/spinKit_snippet.dart';
+import 'package:snippets/snippets/VisibleKeyboard/visible_keyboard_snippet.dart';
 import 'package:snippets/snippets/rerun%20logic/rerun_logic_snippet.dart';
 import 'package:snippets/test.dart';
 import 'globals/exports.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Avenir"
       ),
       debugShowCheckedModeBanner: false,
-      home: SpinKitSnippet(),
+      home: VisibleKeyboardSnippet(),
     );
   }
 }

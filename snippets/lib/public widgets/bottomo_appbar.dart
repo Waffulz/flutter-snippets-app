@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:snippets/globals/colors.dart';
 
-Widget SnippetsBottomAppbar(BuildContext context) {
+Widget snippetsBottomAppbar(BuildContext context) {
   return ClipRect(
     child: BackdropFilter(
       filter: ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),

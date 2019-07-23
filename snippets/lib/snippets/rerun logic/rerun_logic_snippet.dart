@@ -19,7 +19,6 @@ class _RerunLogicScreenState extends State<RerunLogicScreen> {
   Widget rerunLogicBody(BuildContext context) {
 
     double height = MediaQuery.of(context).size.height;
-    double width = MediaQuery.of(context).size.width;
     String assetPath = 'assets/chillhop2.jpg';
 
     Text songText = Text(

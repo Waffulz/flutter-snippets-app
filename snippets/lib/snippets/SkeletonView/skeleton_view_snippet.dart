@@ -21,11 +21,11 @@ class _SkeletonViewSnippetState extends State<SkeletonViewSnippet> {
   @override
   Widget build(BuildContext context) {
     return SnippetsScaffold(
-      body: SkeletonViewBody(),
+      body: skeletonViewBody(),
     );
   }
 
-  Widget SkeletonViewBody() {
+  Widget skeletonViewBody() {
 
     Text screenTitle = Text(
       'APP REVIEW',

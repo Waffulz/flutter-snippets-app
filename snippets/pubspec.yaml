@@ -27,6 +27,7 @@ dependencies:
   shimmer: ^1.0.0
   smooth_star_rating: ^1.0.3
   flutter_spinkit: ^3.1.0
+  keyboard_visibility: ^0.5.6
 
 
 
@@ -59,6 +60,7 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
     - assets/snipzie_white.png
+    - assets/snipzie_filled.png
     - assets/icon_app.png
     - assets/chillhop.jpg
     - assets/chillhop2.jpg
